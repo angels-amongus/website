@@ -6,5 +6,5 @@
 
 ## Project Structure
 
-- Frontend components are in the `good-faith` folder
-- Backend components are in the `gf-backend` folder
+- Frontend components are in the [`good-faith`](https://github.com/vunderkind/good-faith) repository
+- Backend components are in the [`gf-backend`](https://github.com/vunderkind/gf-backend) repository
