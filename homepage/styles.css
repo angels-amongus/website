@@ -404,8 +404,29 @@ width: 40%;
 }
 
 .footer {
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:40px;
   margin: 0 auto;
   background: black;
-  height: 20vh;
+  height: 10vh;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.footer a {
+  color: red;
+}
+
+.social {
+  width: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.social img{
+  width: 100%;
+  padding: 10px
 }
