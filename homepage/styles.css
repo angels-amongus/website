@@ -55,8 +55,8 @@ table {
 body {
   background: -webkit-linear-gradient(to right,#F45C43,#EB3349);  
   background: linear-gradient(to right,#F45C43,#EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #EB3349;
-  background-image: radial-gradient(rgb(255, 220, 81) 2.5%, transparent 0);
+  background: #02C9FF;
+  background-image: radial-gradient(rgb(0, 0, 0) 2.5%, transparent 0);
   background-size: 20px 20px;
   font-family: 'Inter', sans-serif;
   width: 100vw;
@@ -159,7 +159,7 @@ header {
   width: 80%;
   margin: 0 auto;
   margin-top: 7vh;
-  color: #fff;
+  color: #000;
   line-height: 1.2;
 }
 
@@ -203,7 +203,7 @@ header {
   padding-left: 40px;
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
+  color: rgb(255,221,181);
 }
 
 .circle p{
@@ -221,7 +221,7 @@ header {
   padding-left: 40px;
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
+  color: rgb(255,221,181);
 }
 
 .circlesecond p{
@@ -341,8 +341,8 @@ header {
 #banner {
   width: 85%;
   margin: 0 auto;
-  background: #EB3349;
-  background-image: radial-gradient(rgb(255, 215, 130) 2.5%, transparent 0);
+  background: #02C9FF;
+  background-image: radial-gradient(rgb(0, 0, 0) 2.5%, transparent 0);
   background-size: 20px 20px;
   height: 50vh;
   border-radius: 5px;
@@ -423,15 +423,19 @@ width: 40%;
 }
 
 .social {
-  width: 40px;
+  width: 90px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .social img{
   width: 100%;
-  padding: 10px
+  padding: 10px;
+}
+
+.social a {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -448,9 +452,12 @@ width: 40%;
   .logo {
     font-size: 15px;
   }
+
   #stats{
     display: none;
   }
+
+ 
   .volunteerbanner{
     height:5vh;
     font-size: 15px;
@@ -539,6 +546,11 @@ width: 40%;
   
 }
 
+.newsletter p {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #banner img{
   display: none;
 }
@@ -555,8 +567,17 @@ width: 40%;
   width: 100%;
 }
 
-footer {
+.footer {
   height: 100%;
   font-size: 10px;
+  flex-direction: column-reverse;
+}
+
+.social {
+  width: 30px;
+}
+
+#right{
+  margin-bottom: 20px;
 }
 }
