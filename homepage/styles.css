@@ -265,7 +265,51 @@ header {
   padding: 10px 0 15px 0;
 }
 
+
+
 .partners {
-  height: 50vh;
+  height: 40vh;
   background: white;
+  display: flex;
+  width: 100%;
+  padding-top: 10vh;
+}
+
+.flexwrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.support{
+  /* margin: 0 auto; */
+  width: 50%;
+}
+
+.mentioned{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.support h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.mentioned h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.images {
+  width: 80px;
+  height: 60px;
+  margin-top: 7vh;
+}
+
+.images img {
+  width: 100%;
 }
