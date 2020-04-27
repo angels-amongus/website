@@ -522,4 +522,37 @@ width: 40%;
 .images img {
   width: 100%;
 }
+
+.bigbanner{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#banner {
+  flex-direction: row;
+  height: 100%;
+  margin: 0;
+  padding: 30px;
+  
+}
+
+#banner img{
+  display: none;
+}
+
+#banner h2{
+  font-size: 30px;
+}
+
+.bannerimage{
+  display: none;
+}
+
+.bannertext{
+  width: 100%;
+}
+
+footer {
+  height: 100%;
+}
 }
