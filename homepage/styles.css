@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset ends here */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&display=swap');
+
+
+body {
+  background: -webkit-linear-gradient(to right,#F45C43,#EB3349);  
+  background: linear-gradient(to right,#F45C43,#EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #EB3349;
+  background-image: radial-gradient(rgb(255, 220, 81) 2.5%, transparent 0);
+  background-size: 20px 20px;
+  font-family: 'Inter', sans-serif;
+  width: 100vw;
+}
+
+.heading {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  z-index: 1;
+  background: white;
+  font-weight: 900;
+  height: 11vh;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 80px;
+  align-items: center;
+  -webkit-box-shadow: -1px 7px 9px -6px rgba(0,0,0,0.47);
+  -moz-box-shadow: -1px 7px 9px -6px rgba(0,0,0,0.47);
+  box-shadow: -1px 7px 9px -6px rgba(0,0,0,0.47);
+  
+  
+}
+
+/* Links in logo */
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+  font-size: 28px;
+  width: 25%;
+}
+
+#us{
+  color: #ff4444;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 100;
+  justify-content: center;
+}
+
+.headerbutton {
+  width: 25%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.livebutton{
+  background: #ff4444;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.deadbutton{
+  background: #fff;
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.volunteerbanner {
+  background: #ffddb5;
+  color: #8B4E15;
+  z-index: 0;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.volunteerbanner a {
+  color: #ff4444;
+}
+
+.main{
+  display: flex;
+  align-items: baseline;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 7vh;
+  color: #ffddb5;
+  line-height: 1.2;
+}
+
+#text{
+  width: 50%
+}
+
+#text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#text p {
+  margin-top: 2vh;
+  font-size: 18px;
+}
+
+.circle {
+  background:black;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left:50px;
+  z-index: -9;
+}
+
+.circlesecond {
+  background:black;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left:250px;
+  z-index: -9;
+}
+
+.circle h2{
+  z-index: 1;
+  position: absolute;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffddb5;
+}
+
+.circle p{
+  z-index: 1;
+  position: absolute;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffddb5;
+}
+
+.circlesecond h2{
+  z-index: 1;
+  position: absolute;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffddb5;
+}
+
+.circlesecond p{
+  z-index: 1;
+  position: absolute;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffddb5;
+}
+
+.cards {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: rgb(255, 234, 181);
+  width: 25%;
+  padding: 30px;
+  border-radius: 8px;
+  -webkit-box-shadow: -1px 7px 9px -6px rgba(0,0,0,0.47);
+  -moz-box-shadow: -1px 7px 9px -6px rgba(0,0,0,0.47);
+  box-shadow: -1px 7px 9px -6px rgba(0,0,0,0.47);
+  line-height: 1.3;
+  height: 25vh;
+  
+}
+
+.card h2 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.card a {
+  color: #ff4444;
+}
+.card p {
+  padding: 10px 0 15px 0;
+}
+
+.partners {
+  height: 50vh;
+  background: white;
+}
